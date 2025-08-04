@@ -111,7 +111,7 @@
 			$(this).addClass('tp-megamenu-small')
 		}
 	})
-
+ 
 
 	////////////////////////////////////////////////////
 	// 03. Sticky Header Js
