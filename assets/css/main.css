@@ -15451,7 +15451,7 @@ a.social-yout {
 }
 .tp-service-wrap {
   border-radius: 14px;
-  padding: 35px 30px 10px 30px;
+  padding: 35px 25px 25px 25px;
   margin-bottom: 38px;
   position: relative;
   z-index: 1;
@@ -15558,7 +15558,7 @@ a.social-yout {
   transition: all 0.3s 0s ease-out;
 }
 .tp-service-content {
-  padding: 10px 10px;
+  padding: 20px 25px 25px 25px;
 }
 .tp-service-content p {
   color: rgba(255, 255, 255, 0.8);
