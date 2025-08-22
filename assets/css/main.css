@@ -16414,6 +16414,8 @@ transform: scale(1.05);
   background-position: left;
   background-repeat: no-repeat;
 }
+
+
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (max-width: 767px) {
   .tp-testimonial-bg {
     background-position: left top;
@@ -36755,7 +36757,7 @@ padding-top: 80px !important;
                 padding: 12px 15px;
             }
             .why-choos-section{
-              width: 90%;
+              width: 100%;
             }
             .tp-testimonial-6-item{
               width: 90%!important;
@@ -37207,6 +37209,7 @@ padding-top: 80px !important;
         }
 
         /* Responsive Adjustments */
+        
         @media (max-width: 768px) {
             .edug-contact-icons {
                 right: 20px;
@@ -37261,7 +37264,7 @@ padding-top: 80px !important;
     padding-top: 80px !important;
 }
 
-/*added code*/
+
 
 /* Footer visibility fix */
 footer {
@@ -37335,7 +37338,7 @@ footer {
     transform: translateY(-1px);
 }
 
-/* Shimmer effect on hover */
+
 .tp-btn::before {
     content: '';
     position: absolute;
@@ -37356,7 +37359,7 @@ footer {
     left: 100%;
 }
 
-/* Icon animation for arrow */
+
 .tp-btn svg,
 .tp-btn i {
     margin-left: 8px;
@@ -37369,11 +37372,7 @@ footer {
 }  
 
 
-/*contact page - cards */
 
-/*contact page - cards */
-
-/* Enhanced Contact Info Section Styles with Embedded SVGs */
 .tp-contact-info-area {
     padding: 80px 0 90px;
     background: linear-gradient(135deg, var(--tp-grey-1) 0%, var(--tp-common-white) 100%);
@@ -37440,12 +37439,12 @@ footer {
     transform: scaleX(1);
 }
 
-/* Fixed Icon Styles - Combined into single selector */
+
 .tp-contact-info-icon {
     width: 60px;
-    height: 60px; /* Smaller size for perfect circle */
-    min-width: 60px; /* Prevent shrinking */
-    min-height: 60px; /* Prevent shrinking */
+    height: 60px; 
+    min-width: 60px; 
+    min-height: 60px; 
     background: linear-gradient(135deg, var(--tp-theme-primary), var(--tp-theme-secondary));
     border-radius: 50%;
     display: flex;
@@ -37476,7 +37475,7 @@ footer {
     opacity: 0.2;
 }
 
-/* Email Icon using CSS */
+
 .tp-contact-info-item:nth-child(1) .tp-contact-info-icon::before {
     content: '';
     position: absolute;
@@ -37488,7 +37487,7 @@ footer {
     background-size: contain;
 }
 
-/* Phone Icon using CSS */
+
 .tp-contact-info-item:nth-child(2) .tp-contact-info-icon::before {
     content: '';
     position: absolute;
@@ -37500,7 +37499,7 @@ footer {
     background-size: contain;
 }
 
-/* Location Icon using CSS */
+
 .tp-contact-info-item:nth-child(3) .tp-contact-info-icon::before {
     content: '';
     position: absolute;
@@ -37513,7 +37512,7 @@ footer {
 }
 
 .tp-contact-info-icon span {
-    display: none; /* Hide the original span since we're using CSS icons */
+    display: none; 
 }
 
 .tp-contact-info-title {
@@ -37551,7 +37550,7 @@ footer {
     transform: translateY(-1px);
 }
 
-/* Special styling for address text in location card */
+
 .tp-contact-info-item:nth-child(3) a {
     font-size: 0.9rem;
     line-height: 1.6;
@@ -37561,12 +37560,12 @@ footer {
     padding: 0 5px;
 }
 
-/* Special styling for phone numbers */
+
 .tp-contact-info-item:nth-child(2) div {
     margin-top: 10px;
 }
 
-/* Animation for page load */
+
 .tp-contact-info-item {
     opacity: 0;
     transform: translateY(30px);
@@ -37584,12 +37583,11 @@ footer {
     }
 }
 
-/* Additional hover effects for better UX */
 .tp-contact-info-item:hover .tp-contact-info-title {
     color: var(--tp-theme-secondary);
 }
 
-/* Pulse animation for icons */
+
 @keyframes pulse {
     0% {
         box-shadow: 0 0 0 0 rgba(244, 63, 94, 0.4);
@@ -37606,7 +37604,6 @@ footer {
     animation: pulse 2s infinite;
 }
 
-/* Responsive Design */
 @media (max-width: 991px) {
     .tp-contact-main-title {
         font-size: 2.2rem;
@@ -37632,27 +37629,6 @@ footer {
     }
 }
 
-/*contact form*/
-/*
-@media (min-width: 768px) {
-    .tp-contact-from-box {
-        max-width: 700px !important;
-    }
-}
-
-@media (min-width: 1024px) {
-    .tp-contact-from-box {
-        max-width: 900px !important;
-    }
-}
-
-@media (min-width: 1200px) {
-    .tp-contact-from-box {
-        max-width: 1100px !important;
-    }
-}
-
-*/
 
 .tp-footer-newsletter-wrap p{
 
@@ -37664,6 +37640,64 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
 
+  }  
+
+
+@media only screen and (max-width: 767px) {
+ 
+  .tp-testimonial-6-active {
+    margin: 0 !important;
+    padding: 0 !important;
   }
+  
+  
+  .tp-testimonial-6-wrapper::before,
+  .tp-testimonial-6-wrapper::after {
+    display: none !important;
+  }
+  
 
+  .tp-testimonial-6-wrapper {
+    overflow: visible !important;
+    margin: 0 !important;
+    padding: 20px 0 !important;
+  }
+  
 
+  .container-fluid {
+    margin: 0 !important;
+    padding: 0 15px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  
+ 
+  .tp-testimonial-6-ptb {
+    margin: 0 !important;
+    padding: 60px 0 !important;
+    overflow-x: hidden !important;
+  }
+  
+  
+  .tp-testimonial-6-item {
+    margin: 0 5px !important;
+    width: calc(100% - 10px) !important;
+    box-sizing: border-box !important;
+  }
+  
+ 
+  .tp-testimonial-6-ptb * {
+    box-sizing: border-box !important;
+  }
+  
+  
+  body {
+    overflow-x: hidden !important;
+  }
+}
+
+@media (max-width: 620px) {
+    .tp-footer-main {
+        background-size: cover;
+    }
+}
